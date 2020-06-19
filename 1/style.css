@@ -1,0 +1,45 @@
+html {
+    font-size: 15px;
+    background: url(https://i.imgur.com/6IAL4aM.png) fixed center;
+}
+
+.container {
+    /* Flex box configuration */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* Other items */
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.instrument {
+    vertical-align: middle;
+    display: inline-block;
+    background: rgba(0,0,0,.4);
+    font-size: 1.5rem;
+    color: white;
+    background: rgba(255, 0, 0, 0.2);
+    height: 10vh;
+    width: 10rem;
+    border: 2px ridge red;
+    border-radius: 0.8rem;
+    margin: 0.5rem 0.5rem;
+    text-shadow: 0 0 .5rem black;
+    transition: all 0.5s ease;
+}
+
+.playing {
+    transform: scale(1.2);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 3rem;
+}
